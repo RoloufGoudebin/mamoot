@@ -41,7 +41,18 @@
   font-family: "Oswald", Arial, sans-serif; 
 }
 
-.color-second{
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-purple{
   color: #814AFF;
 }
 
