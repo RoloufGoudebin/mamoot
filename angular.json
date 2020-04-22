@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "mamoot": {
@@ -24,9 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/aos/dist/aos.css",
+              "src/assets/css/animate.css",
+              "src/assets/css/ionicons.min.css",
+              "src/assets/css/style.css",
+              "src/assets/css/flaticon.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +126,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "mamoot"
+    }
+  },
+  "defaultProject": "mamoot",
+  "cli": {
+    "analytics": "1402bf30-4b9b-4ab4-a5b3-d02950224fc5"
+  }
 }
