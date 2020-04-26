@@ -21,6 +21,14 @@
   background-color: #B6E8E7;
 }
 
+.text-cyan{
+  color: #B6E8E7;
+}
+
+.text-purple{
+  color: #814AFF;
+}
+
 @media (min-width: 768px) {
   .intro .border-r {
     border-left: 1px solid rgba(0, 0, 0, 0.1);
@@ -206,4 +214,14 @@ h3 .purple{
   .ftco-causes .about-text h2 {
     font-size: 34px; 
   } 
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
 }
