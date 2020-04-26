@@ -225,3 +225,40 @@ h3 .purple{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
+
+.services {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  padding: 40px 25px;
+  display: block; }
+  @media (max-width: 991.98px) {
+    .services {
+      padding: 10px 0; } }
+  .services .icon {
+    line-height: 1.3;
+    position: relative; }
+    .services .icon span {
+      font-size: 60px;
+      color: #814AFF; }
+  .services .media-body h3 {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  @media (min-width: 992px) {
+    .services.active {
+      background: #814AFF;
+      color: #fff; }
+      .services.active .icon span {
+        color: #fff; }
+      .services.active h3 {
+        color: #fff; } }
+  .services:hover, .services:focus {
+    background: #814AFF;
+    color: #fff; }
+    .services:hover .icon span, .services:focus .icon span {
+      color: #fff; }
+    .services:hover h3, .services:focus h3 {
+      color: #fff; }
