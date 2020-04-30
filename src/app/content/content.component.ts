@@ -29,5 +29,12 @@ export class ContentComponent implements OnInit {
     script.defer = true;
     body.appendChild(script);
   }
-
+  clickOnService() {
+    var bg = document.getElementById("mainGauche");
+    bg.style.backgroundImage = '';
+    var txtService = document.getElementById("service1");
+    txtService.classList.remove("d-none");
+    txtService.classList.add("animated fadeIn");
+  }
 }
+
