@@ -1,71 +1,27 @@
-.top-page {
-  width: 100%;
-  height: 100%;
-  position: inherit;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center; 
-}
-
-@media (max-width: 1199.98px) {
-  .top-page {
-    background-position: bottom center !important;  
-  } 
-}
 
 .back-purple{
   background-color: #814AFF;
+  color: #B6E8E7;
 }
 
 .back-cyan{
   background-color: #B6E8E7;
-}
-
-.text-cyan{
-  color: #B6E8E7;
-}
-
-.text-purple{
   color: #814AFF;
 }
 
-@media (min-width: 768px) {
-  .intro .border-r {
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-    padding-left: 40px; } }
-.space{
-  padding-bottom: 7em;
-}
-
-.slider-text {
-  position: relative; 
-}
-
-.slider-text h1 {
+.intro h1 {
   font-size: 7vw;
-  color: #fff;
   line-height: 1.2;
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-family: "Oswald", Arial, sans-serif; 
-}
-@media (max-width: 991.98px) {
-  .slider-text h1 {
-    font-size: 40px; 
-  } 
-}
-@media (min-width: 992px){
-  .slider-text h1 {
-    font-size: 40px;
-  } 
-}
-.slider-text h2{
-  line-height: 1.2;
-  font-weight: 20px;
-  color: #fff;
-  font-family: "Oswald", Arial, sans-serif; 
-}
+  font-family: "Oswald", Arial, sans-serif; }
+  @media (max-width: 991.98px) {
+    .intro h1 {
+      font-size: 40px; } }
+  @media (min-width: 992px){
+    .intro h1 {
+      font-size: 40px; } }
 
 h3 .purple{
   color: #814AFF !important;
