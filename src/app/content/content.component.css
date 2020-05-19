@@ -1,10 +1,12 @@
+html, body{
+  font-family: 'Roboto Condensed';
+}
 .intro h1 {
   font-size: 7vw;
   line-height: 1.2;
   font-weight: 700 !important;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-family: "Oswald", Arial, sans-serif; }
+  letter-spacing: 5px;}
   @media (max-width: 991.98px) {
     .intro h1 {
       font-size: 40px; } }
@@ -22,4 +24,10 @@
 
 .contact {
   background-color: #ABDDDE;
+}
+
+.service-title{
+  border-width: 0.2em !important;
+  margin-bottom: 0.5em !important;
+  border-color: #ABDDDE !important;
 }
