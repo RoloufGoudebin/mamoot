@@ -11,6 +11,15 @@
   @media (min-width: 992px){
     .intro h1 {
       font-size: 40px; } }
-.text-white {
-  color: #fff;
+
+.btn-green {
+       background-color: #ABDDDE !important;
+}
+
+.btn-green:focus {
+  background-color: #fff !important;
+}
+
+.contact {
+  background-color: #ABDDDE;
 }
