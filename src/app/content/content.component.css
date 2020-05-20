@@ -1,6 +1,10 @@
 html, body{
   font-family: 'Roboto Condensed';
 }
+
+services{
+  font-family: 'Open Sans';
+}
 .intro h1 {
   font-size: 7vw;
   line-height: 1.2;
@@ -27,7 +31,7 @@ html, body{
 }
 
 .service-title{
-  border-width: 0.2em !important;
+  border-width: 0.1em !important;
   margin-bottom: 0.5em !important;
   border-color: #ABDDDE !important;
 }
