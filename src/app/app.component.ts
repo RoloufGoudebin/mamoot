@@ -26,7 +26,8 @@ export class AppComponent implements OnInit{
   	this.loadScript('../assets/js/jquery.animateNumber.min.js');
   	this.loadScript('../assets/js/scrollax.min.js');
   	this.loadScript('../assets/js/google-map.js');
-  	this.loadScript('../assets/js/main.js')
+    this.loadScript('../assets/js/main.js')
+    
 
   }
 
