@@ -41,3 +41,47 @@ services{
   margin-bottom: 0.5em !important;
   border-color: #ABDDDE !important;
 }
+
+/*--------------------------------------------------------------
+	Call to action oué je range et tout moi
+--------------------------------------------------------------*/
+.bg-dark {
+  background: #111;
+}
+
+.callout-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.callout-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.callout-btn-box {
+  text-align: right;
+  padding-top: 4px;
+}
+
+.request-cta {
+  padding: 50px 0px;
+}
+
+.module,
+.module-small {
+  position: relative;
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+/* Callout */
+.callout-text {
+  margin: 0 0 30px;
+}
+.callout-text,
+.callout-btn-box {
+  text-align: center;
+  }
