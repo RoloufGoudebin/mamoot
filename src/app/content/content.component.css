@@ -1,10 +1,16 @@
 html, body{
-  font-family: 'Roboto Condensed';
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+h4{
+  font-family: 'Roboto Condensed' !important;
 }
 
 services{
   font-family: 'Open Sans';
 }
+
 .intro h1 {
   font-size: 7vw;
   line-height: 1.2;
