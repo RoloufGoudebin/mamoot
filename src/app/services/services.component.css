@@ -10,6 +10,11 @@
     color: black;
 }
 
+.btn-primary{
+    background-color: #ABDDDE !important;
+    border-color: #ABDDDE !important;
+}
+
 h2{
     border-bottom: 4px solid #ABDDDE;
     text-decoration-color: #ABDDDE;
