@@ -42,6 +42,12 @@ services{
   border-color: #ABDDDE !important;
 }
 
+.text-carou-eco{
+  letter-spacing: 24px;
+  font-weight: 600;
+  font-size: 48px;
+}
+
 /*--------------------------------------------------------------
 	Call to action oué je range et tout moi
 --------------------------------------------------------------*/
