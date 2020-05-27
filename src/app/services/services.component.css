@@ -6,21 +6,126 @@
     border-color: #ABDDDE !important;
 }
 
-.alt-features-title{
-    color: black;
+.features-title,
+.alt-features-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #111;
+  margin: 16px 0 15px;
 }
 
 .btn-primary{
     background-color: #ABDDDE !important;
     border-color: #ABDDDE !important;
-}
+    }
 
-h2{
-    border-bottom: 4px solid #ABDDDE;
-    text-decoration-color: #ABDDDE;
-}
 
-h3{
-    border-bottom: 2px solid #ABDDDE;
-    text-decoration-color: #ABDDDE;
-}
+
+    /*--------------------------------------------------------------
+    titres par ordre de taille
+    --------------------------------------------------------------*/
+
+    .mamoot-title-size-1 {
+      letter-spacing: 2px;
+      font-size: 14px;
+    }
+    .mamoot-title-size-2 {
+      line-height: 1.3;
+      letter-spacing: 2px;
+      font-size: 16px;
+      opacity: .8;
+    }
+  .mamoot-title-size-3 {
+    letter-spacing: 8px;
+    font-size: 36px;
+   }
+  .mamoot-title-size-4 {
+    letter-spacing: 12px;
+    font-size: 38px;
+   }
+
+
+  /*--------------------------------------------------------------
+  	Typographie contenu
+  --------------------------------------------------------------*/
+  a {
+    color: #111;
+  }
+
+  a:hover, a:focus {
+    text-decoration: none;
+    color: #aaa;
+    outline: 0;
+  }
+
+  .bg-dark a {
+    color: #aaa;
+  }
+
+  .bg-dark a:hover, .bg-dark a:focus {
+    color: #fff;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.4;
+    font-weight: 400;
+  }
+
+  p, ol, ul, blockquote {
+    margin: 0 0 20px;
+  }
+
+  blockquote {
+    border: 0;
+    font-style: italic;
+    font-size: 15px;
+    padding: 0;
+  }
+
+  .font-alt {
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .font-serif {
+    font-family: Volkhov, "Times New Roman", sans-serif;
+    font-style: italic;
+  }
+
+  .large-text {
+    font-size: 24px !important;
+  }
+
+  .rotate {
+    text-shadow: none !important;
+  }
+
+  .module-title {
+    position: relative;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #111;
+    margin: 0 0 70px;
+  }
+
+  .module-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #111;
+    margin-bottom: 70px;
+  }
+
+  .module-icon {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .module-title + .module-subtitle {
+    margin-top: -35px;
+  }
