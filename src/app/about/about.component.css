@@ -1,0 +1,35 @@
+.card-header{
+    background-color: white;
+}
+
+.border-primary{
+    border-color: #ABDDDE !important;
+}
+
+.alt-features-title{
+    color: black;
+}
+
+.btn-primary{
+    background-color: #ABDDDE !important;
+    border-color: #ABDDDE !important;
+}
+
+h2{
+    border-bottom: 4px solid #ABDDDE;
+    text-decoration-color: #ABDDDE;
+}
+
+h3{
+    border-bottom: 2px solid #ABDDDE;
+    text-decoration-color: #ABDDDE;
+}
+
+h4{
+    font-size: higher;
+}
+
+i{
+    color: #ABDDDE;
+    font-size: higher;
+}
