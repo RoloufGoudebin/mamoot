@@ -152,6 +152,7 @@ i{
 
   .main {
     position: relative;
+    text-align: center;
     background-color: #fff;
     z-index: 1;
   }
