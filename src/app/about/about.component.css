@@ -2,6 +2,14 @@
     background-color: white;
 }
 
+.work-item,
+.works-grid-3 .work-item,
+.container .works-grid-3 .work-item,
+.works-grid-4 .work-item,
+.works-grid-5 .work-item {
+  width: 50%;
+}
+
 .border-primary{
     border-color: #ABDDDE !important;
 }
@@ -141,6 +149,13 @@ i{
     text-shadow: none !important;
   }
 
+
+  .main {
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+  }
+
   .module-title {
     position: relative;
     letter-spacing: 4px;
@@ -151,12 +166,43 @@ i{
     margin: 0 0 70px;
   }
 
+  .module,
+.module-small {
+  position: relative;
+  padding: 140px 0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  }
+
   .module-subtitle {
     text-align: center;
     font-size: 16px;
     color: #111;
     margin-bottom: 70px;
   }
+
+  .features-title,
+.alt-features-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #111;
+  margin: 16px 0 15px;
+}
+
+.features-item {
+    margin: 0 0 30px;
+  }
+
+  .features-icon,
+.alt-features-icon {
+  line-height: 1.2;
+  font-size: 42px;
+  color: #111;
+}
+
 
   .module-icon {
     text-align: center;
@@ -167,3 +213,23 @@ i{
   .module-title + .module-subtitle {
     margin-top: -35px;
   }
+
+  /*--------------------------------------------------------------
+    call 2 action monkon
+  --------------------------------------------------------------*/
+
+  .callout-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.callout-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.callout-btn-box {
+  text-align: right;
+  padding-top: 4px;
+}
