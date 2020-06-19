@@ -3,10 +3,12 @@ import { Routes, RouterModule } from '@angular/router';
 import { ContentComponent } from './content/content.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
-  { path: 'services', component: ServicesComponent },
+  { path: 'contact', component: ContactComponent},
+  { path: 'services', component: ServicesComponent},
   { path: 'about', component: AboutComponent},
   { path: '', component: ContentComponent, pathMatch: 'full' },
 ];
