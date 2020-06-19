@@ -140,6 +140,13 @@ services{
       font-size: 38px;
      }
 
+     .mb-40 {
+       margin-bottom: 40px !important;
+     }
+
+     .rotate {
+       text-shadow: none !important;
+     }
 
     /*--------------------------------------------------------------
     	Typographie contenu
