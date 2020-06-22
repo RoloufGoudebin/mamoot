@@ -8,12 +8,33 @@
 
 		<div class="collapse navbar-collapse" id="ftco-nav">
 			<ul class="navbar-nav ml-auto">
-				<a class="nav-item" routerLink="" routerLinkActive="active"
-					[routerLinkActiveOptions]="{ exact: true }"><a class="nav-link">Home</a></a>
-				<a class="nav-item" routerLinkActive="active" routerLink="services"><a class="nav-link">Solutions</a></a>
-				<a class="nav-item" routerLink="about" routerLinkActive="active"><a class="nav-link">l'agence</a></a>
-				<a class="nav-item" routerLink="apropos" routerLinkActive="active"><a class="nav-link">Mission:Planet X Mamoot <span class="icon-heart"></span></a></a>
-				<a class="nav-item"><a href="contact" class="nav-link">Contact</a></a>
+				<a class="nav-item" routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+					<a class="nav-link">Home</a>
+				</a>
+				<a class="nav-item" routerLinkActive="active" routerLink="services">
+					<a class="nav-link">Solutions</a>
+				</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						l'agence
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="nav-item" routerLinkActive="active" routerLink="about">
+							<a class="nav-link ml-3">À propos</a>
+						</a>
+						<div class="dropdown-divider"></div>
+						<a class="nav-item" routerLinkActive="active" routerLink="valeurs">
+							<a class="nav-link ml-3">Nos valeurs</a>
+						</a>
+						<div class="dropdown-divider"></div>
+						<a class="nav-item" routerLinkActive="active" routerLink="environnement">
+							<a class="nav-link ml-3">Mission: Planète x Mamoot </a>
+						</a>
+					</div>
+				</li>
+				<a class="nav-item" routerLinkActive="active" routerLink="contact"><a class="nav-link">Contact</a>
+				</a>
 			</ul>
 		</div>
 	</div>

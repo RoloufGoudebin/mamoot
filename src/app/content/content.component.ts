@@ -14,10 +14,6 @@ export class ContentComponent implements OnInit {
 
   ngOnInit() {
     this.loadScript('../assets/js/main.js')
-    $("main-droite").click(function () {
-      $(this).hide("slide", { direction: "left" }, 1000);
-    });
-
   }
 
   public loadScript(url: string) {
@@ -28,13 +24,6 @@ export class ContentComponent implements OnInit {
     script.async = false;
     script.defer = true;
     body.appendChild(script);
-  }
-  clickOnService() {
-    var bg = document.getElementById("mainGauche");
-    bg.style.backgroundImage = '';
-    var txtService = document.getElementById("service1");
-    txtService.classList.remove("d-none");
-    txtService.classList.add("animated fadeIn");
   }
 }
 
