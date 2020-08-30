@@ -8,20 +8,18 @@ body {
 
 
 .new_footer_top {
-    padding: 120px 0px 270px;
+    padding: 120px 0px 120px;
     position: relative;
       overflow-x: hidden;
 }
 .new_footer_area .footer_bottom {
     padding-top: 5px;
-    padding-bottom: 50px;
 }
 .footer_bottom {
     font-size: 14px;
     font-weight: 300;
     line-height: 20px;
     color: #7f88a6;
-    padding: 27px 0px;
 }
 .new_footer_top .company_widget p {
     font-size: 16px;
@@ -142,9 +140,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .new_footer_top .footer_bg {
-    position: absolute;
+    position: inherit;
     bottom: 0;
-    background: url("src/assets/img/bg-footer.gif") no-repeat scroll center 0;
+    background: url("src/assets/img/bg-footer.gif") no-repeat center center;
     width: 100%;
     height: 266px;
 }
@@ -153,10 +151,9 @@ h1, h2, h3, h4, h5, h6 {
     background: url("src/assets/img/mamoot-run.gif") no-repeat center center;
     width: 330px;
     height: 130px;
-  background-size:100%;
+    background-size: 100%;
     position: absolute;
     bottom: 0;
-    left: 30%;
     -webkit-animation: myfirst 22s linear infinite;
     animation: myfirst 22s linear infinite;
 }
