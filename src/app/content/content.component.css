@@ -192,6 +192,15 @@ services{
       letter-spacing: 2px;
     }
 
+    .font-white {
+      font-family: "Roboto Condensed", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #ffffff
+
+      }
+
+
     .font-serif {
       font-family: Volkhov, "Times New Roman", sans-serif;
       font-style: italic;
