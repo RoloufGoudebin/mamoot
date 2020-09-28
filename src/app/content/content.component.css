@@ -195,7 +195,7 @@ services{
     .font-white {
       font-family: "Roboto Condensed", sans-serif;
       text-transform: uppercase;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       color: #ffffff
 
       }

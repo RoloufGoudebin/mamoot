@@ -139,13 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.new_footer_top .footer_bg {
-    position: inherit;
-    bottom: 0;
-    background: url("src/assets/img/bg-footer.gif") no-repeat center center;
-    width: 100%;
-    height: 266px;
-}
+
 
 .new_footer_top .footer_bg .footer_bg_one {
     background: url("src/assets/img/mamoot-run.gif") no-repeat center center;
