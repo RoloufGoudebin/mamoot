@@ -32,12 +32,13 @@ a:focus {
 
 h3{
   font-family: 'Roboto Condensed' !important;
+  padding-top: 30px;
 }
 
 
 ul {
     margin: 0;
-    padding: 0;
+    padding-top: 19px;
 }
 
 li  {
@@ -59,6 +60,7 @@ text-transform: uppercase;
 letter-spacing: 1px;
 color: #ffffff;
 margin-bottom: 60px;
+margin-top: 35px;
 }
 .section-head h4 {
   position: relative;
@@ -86,7 +88,7 @@ margin:0 auto;
 .section-head h4 span {
 font-weight: 700;
 padding-bottom: 5px;
-color:#2f2f2f
+color:#ffff
 }
 p.service_text{
 color:#cccccc !important;
@@ -129,7 +131,7 @@ color:#f91942;
 .font-serif {
   font-family: Volkhov, "Times New Roman", sans-serif;
   font-style: italic;
-  color: #111;
+  color: #fff;
   text-align: center;
   font-size: 14px;
 }
@@ -142,6 +144,7 @@ box-shadow:0 0px 25px rgba(0, 0, 0, 0.07);
 border-radius: 20px;
 border:5px solid rgba(0, 0, 0, 0.07);
 margin-bottom: 30px;
+margin-top: 230px;
 -webkit-transition: all .5s ease 0;
 transition: all .5s ease 0;
 transition: all 0.5s ease 0s;
@@ -319,6 +322,8 @@ font-size: 38px;
 
 .slider {
 	width: 100%;
+  padding-top: 100px;
+  margin-bottom: 20px;
 }
 .slider input {
 	display: none;
@@ -328,7 +333,7 @@ font-size: 38px;
 	align-items: center;
 	justify-content: center;
 	position: relative;
-	min-height: 650px;
+	min-height: 900px;
 	perspective: 600px;
 	overflow: hidden;
 }
