@@ -8,9 +8,18 @@ import { RouterModule } from '@angular/router';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    function onClickMe(){
+      var element = document.getElementById("etendre");
+      element.classList.remove("d-none");
+    }
+  }
 
   ngOnInit(): void {
+    function onClickMe(){
+      var element = document.getElementById("etendre");
+      element.classList.remove("d-none");
+    }
   }
 
 }

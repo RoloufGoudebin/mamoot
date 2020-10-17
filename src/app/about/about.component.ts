@@ -25,4 +25,9 @@ export class AboutComponent implements OnInit {
     script.defer = true;
     body.appendChild(script);
   }
+
+  scrollToElement($element): void {
+    console.log($element);
+    $element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+  }
 }
